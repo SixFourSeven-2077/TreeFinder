@@ -6,7 +6,7 @@ Similar to ``` grep -rnw '/path/to/somewhere/' -e 'pattern' ```
 but with a fancier interface.
 
 ## Requirements
-You will need Python 3.6.X or later, ``` colorama``` (for fancy colors) and ``` pathlib```
+You will need Python 3.6.X or later, ``` colorama``` (for fancy colors) and ``` pathlib```. Windows 7, 8, 10 - Linux tested
 ```bash
 pip install colorama pathlib
 ```
