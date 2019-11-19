@@ -1,5 +1,6 @@
 # TreeFinder
 ![Alt text](img.png?raw=true "IMG")
+
 Simple script useful to search for a string in specific files using wildcards. This script reads files and scans them line by line, and returns the matching lines and their index in a TXT report.
 Similar to ``` grep -rnw '/path/to/somewhere/' -e 'pattern' ```
 but with a fancier interface.
