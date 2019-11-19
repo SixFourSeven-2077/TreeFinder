@@ -1,5 +1,5 @@
 # TreeFinder
-Simple script useful to search for a string in specific files using wildcards.
+Simple script useful to search for a string in specific files using wildcards. This script reads files and scans them line by line, and returns the matching lines and their index in a TXT report.
 Similar to ``` grep -rnw '/path/to/somewhere/' -e 'pattern' ```
 but with a fancier interface.
 
@@ -29,10 +29,10 @@ or double-click if you created a standalone executable
 Type the directory you want to scan (Example : E:\Softwares\Sources) or leave it blank to scan the script's parent directory)
 
 ``` Files to scan (use wildcards) : [default : * (all)]``` : 
-Type the files you want to scan, using wildcards (Example : *.cpp, report??.txt, etc) or leave it blank to scan all files
+Type the files you want to scan, using wildcards (Example : ``` *.cpp```, ``` report??.txt```, etc) or leave it blank to scan all files
 
 ``` String to find : (use wildcards)``` :
-Type the string you want to find, using wildcards (Example : *hello*, entry[!abc], etc)
+Type the string you want to find, using wildcards (Example : ``` hello```, ``` entry[!abc]```, etc)
 
 
-The script will now scan the directory, a report is available in the script's parent directory
+The script will now scan the directory, a report is available in the script's parent directory.
