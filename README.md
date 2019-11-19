@@ -32,7 +32,7 @@ Type the directory you want to scan (Example : E:\Softwares\Sources) or leave it
 Type the files you want to scan, using wildcards (Example : *.cpp, report??.txt, etc) or leave it blank to scan all files
 
 ``` String to find : (use wildcards)``` :
-Type the string you want to find, using wildcards (Example : hello*, entry[!abc], etc)
+Type the string you want to find, using wildcards (Example : *hello*, entry[!abc], etc)
 
 
 The script will now scan the directory, a report is available in the script's parent directory
