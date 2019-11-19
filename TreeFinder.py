@@ -8,7 +8,7 @@ from pathlib import Path
 os.system("mode con: cols=80 lines=20")
 init()
 def banner():
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
     print(Fore.GREEN + Style.BRIGHT + "  ______               _______           __  \n"+
 " /_  __/_______  ___  / ____(_)___  ____/ /__  _____\n"+
 "  / / / ___/ _ \/ _ \/ /_  / / __ \/ __  / _ \/ ___/\n"+
