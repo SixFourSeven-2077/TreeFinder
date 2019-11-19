@@ -20,7 +20,8 @@ pyinstaller /path/to/TreeFinder.py --onefile -y
 ### Start
 Launch the script with 
 ```bash
-python /path/to/TreeFinder.py ```
+python /path/to/TreeFinder.py 
+```
 or double-click if you created a standalone executable 
 
 ### Usage
