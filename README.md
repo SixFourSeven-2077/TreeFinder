@@ -18,7 +18,10 @@ pyinstaller /path/to/TreeFinder.py --onefile -y
 
 ## Using TreeFinder
 ### Start
-Launch the script with ```python /path/to/TreeFinder.py ``` or double-click if you created a standalone executable 
+Launch the script with 
+```bash
+python /path/to/TreeFinder.py ```
+or double-click if you created a standalone executable 
 
 ### Usage
 ``` Folder to scan : [default : current directory] ``` : 
